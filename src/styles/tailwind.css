@@ -1,0 +1,64 @@
+@tailwind base;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    @apply box-border;
+  }
+
+  *,
+  *:hover {
+    scrollbar-color: auto;
+  }
+
+  *::-webkit-scrollbar {
+    @apply h-2 w-2 bg-zinc-200 dark:bg-zinc-800;
+  }
+
+  *::-webkit-scrollbar-track {
+    @apply my-2;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    @apply rounded-[100vw] bg-blue-700;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-semibold text-zinc-900;
+  }
+
+  h1 {
+    @apply text-3xl lg:text-4xl;
+  }
+
+  h2 {
+    @apply text-2xl lg:text-3xl;
+  }
+
+  picture {
+    @apply block align-middle;
+  }
+
+  picture,
+  svg {
+    @apply h-auto max-w-full;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+.rdp {
+  margin: 0;
+}
+
+.rdp-month {
+  width: 100%;
+}
+
+.rdp-table {
+  max-width: none;
+}
