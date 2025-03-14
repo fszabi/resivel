@@ -1,5 +1,5 @@
-import { Heading, Subheading } from '@/components/catalyst-ui-kit/heading'
-import { Input, InputGroup } from '@/components/catalyst-ui-kit/input'
+import { Heading, Subheading } from '@/components/ui/heading'
+import { Input, InputGroup } from '@/components/ui/input'
 import { getRecentReservations } from '@/data'
 import { MagnifyingGlassIcon } from '@heroicons/react/16/solid'
 import FavouriteStores from './FavouriteStores'

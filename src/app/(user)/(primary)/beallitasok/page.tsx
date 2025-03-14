@@ -1,8 +1,8 @@
-import { Button } from '@/components/catalyst-ui-kit/button'
-import { Divider } from '@/components/catalyst-ui-kit/divider'
-import { Heading, Subheading } from '@/components/catalyst-ui-kit/heading'
-import { Input } from '@/components/catalyst-ui-kit/input'
-import { Text } from '@/components/catalyst-ui-kit/text'
+import { Button } from '@/components/ui/button'
+import { Divider } from '@/components/ui/divider'
+import { Heading, Subheading } from '@/components/ui/heading'
+import { Input } from '@/components/ui/input'
+import { Text } from '@/components/ui/text'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {

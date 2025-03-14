@@ -1,5 +1,5 @@
-import { Avatar } from '@/components/catalyst-ui-kit/avatar'
-import { Subheading } from '@/components/catalyst-ui-kit/heading'
+import { Avatar } from '@/components/ui/avatar'
+import { Subheading } from '@/components/ui/heading'
 import Image from 'next/image'
 import balaton from '/public/assets/favouritehostels/balaton.webp'
 import budapest from '/public/assets/favouritehostels/budapest.webp'

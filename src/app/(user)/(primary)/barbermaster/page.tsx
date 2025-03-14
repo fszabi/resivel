@@ -1,6 +1,6 @@
-import { Avatar } from '@/components/catalyst-ui-kit/avatar'
-import { Button } from '@/components/catalyst-ui-kit/button'
-import { Heading, Subheading } from '@/components/catalyst-ui-kit/heading'
+import { Avatar } from '@/components/ui/avatar'
+import { Button } from '@/components/ui/button'
+import { Heading, Subheading } from '@/components/ui/heading'
 import { StarIcon as StarIconSolid } from '@heroicons/react/20/solid'
 import { StarIcon as StarIconOutline } from '@heroicons/react/24/outline'
 import { Metadata } from 'next'
@@ -35,6 +35,13 @@ const CompanyPage = async () => {
         </div>
       </div>
 
+      <div className="space-y-2">
+        <Subheading className="mt-14">Foglalás</Subheading>
+        <Button color="blue" href="/barbermaster/foglalas">
+          Foglalás megkezdése
+        </Button>
+      </div>
+
       <div className="mt-8 grid grid-cols-1 gap-8 xl:grid-cols-10">
         <div className="space-y-2 xl:col-span-7">
           <Subheading>Bemutatkozás</Subheading>
@@ -62,13 +69,6 @@ const CompanyPage = async () => {
           </div>
         </div>
         <SidebarNewsAndMessages />
-      </div>
-
-      <div className="space-y-2">
-        <Subheading className="mt-14">Foglalás</Subheading>
-        <Button color="blue" href="/barbermaster/foglalas">
-          Foglalás megkezdése
-        </Button>
       </div>
     </>
   )

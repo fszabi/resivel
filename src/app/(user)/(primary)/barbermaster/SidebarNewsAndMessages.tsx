@@ -1,5 +1,5 @@
-import { Avatar } from '@/components/catalyst-ui-kit/avatar'
-import { Subheading } from '@/components/catalyst-ui-kit/heading'
+import { Avatar } from '@/components/ui/avatar'
+import { Subheading } from '@/components/ui/heading'
 import Image from 'next/image'
 import barberMaster from '/public/assets/favouritestores/barber_master.webp'
 import barberMasterMessage from '/public/assets/newsandmessages/barber_master_uzenet.webp'

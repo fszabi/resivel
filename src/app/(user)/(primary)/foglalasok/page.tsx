@@ -1,5 +1,5 @@
-import { Heading } from '@/components/catalyst-ui-kit/heading'
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/catalyst-ui-kit/table'
+import { Heading } from '@/components/ui/heading'
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import { getReservations } from '@/data'
 import type { Metadata } from 'next'
 import Image from 'next/image'

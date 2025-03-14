@@ -1,5 +1,5 @@
-import { Avatar } from '@/components/catalyst-ui-kit/avatar'
-import { Subheading } from '@/components/catalyst-ui-kit/heading'
+import { Avatar } from '@/components/ui/avatar'
+import { Subheading } from '@/components/ui/heading'
 import Image from 'next/image'
 import fordTransit from '/public/assets/favouriterentings/ford_transit.webp'
 import hiltiFurokalapacs from '/public/assets/favouriterentings/hilti_furokalapacs.webp'

@@ -1,7 +1,7 @@
 'use client'
 
-import { Input } from '@/components/catalyst-ui-kit/input'
-import { Listbox, ListboxLabel, ListboxOption } from '@/components/catalyst-ui-kit/listbox'
+import { Input } from '@/components/ui/input'
+import { Listbox, ListboxLabel, ListboxOption } from '@/components/ui/listbox'
 import { getCountries } from '@/data'
 import Image from 'next/image'
 import { useState } from 'react'

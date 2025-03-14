@@ -1,8 +1,8 @@
 'use client'
 
-import { Avatar } from '@/components/catalyst-ui-kit/avatar'
-import { Subheading } from '@/components/catalyst-ui-kit/heading'
-import { Link } from '@/components/catalyst-ui-kit/link'
+import { Avatar } from '@/components/ui/avatar'
+import { Subheading } from '@/components/ui/heading'
+import { Link } from '@/components/ui/link'
 import { ChevronLeftIcon, ChevronRightIcon, StarIcon as StarIconSolid } from '@heroicons/react/20/solid'
 import { StarIcon as StarIconOutline } from '@heroicons/react/24/outline'
 import { useTheme } from 'next-themes'

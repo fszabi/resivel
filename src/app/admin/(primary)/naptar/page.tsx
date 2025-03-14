@@ -1,4 +1,4 @@
-import { Heading } from '@/components/catalyst-ui-kit/heading'
+import { Heading } from '@/components/ui/heading'
 import type { Metadata } from 'next'
 import CustomCalendar from './CustomCalendar'
 

@@ -1,7 +1,7 @@
 'use client'
 
-import { Avatar } from '@/components/catalyst-ui-kit/avatar'
-import { Button } from '@/components/catalyst-ui-kit/button'
+import { Avatar } from '@/components/ui/avatar'
+import { Button } from '@/components/ui/button'
 import { Employee, Service } from '@/types'
 import { StarIcon as StarIconSolid } from '@heroicons/react/20/solid'
 import { StarIcon as StarIconOutline } from '@heroicons/react/24/outline'
